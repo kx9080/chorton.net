@@ -1,0 +1,221 @@
+
+body{
+  background-color: #ff3cac;
+  background-image: linear-gradient(#ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  padding: 24px 26px 10px 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: black;
+}
+.wave{
+  float: left;
+  display: block;
+}
+.title{
+  font-family: 'Liu Jian Mao Cao', cursive;
+  text-align: center;
+  font-size: 75px;
+  margin-top: 150px;
+  color: #000000;
+  letter-spacing: .1em;
+  color: black;
+  opacity: 0.7;
+}
+
+.motto {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  text-align: center;
+  padding: 40px 0 40px; 0;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: .1em;
+  color: black;
+  opacity: 0.8;
+}
+
+.column {
+  width: 15%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  position: relative;
+}
+.column .button{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(10%, -50%);
+  background-color: #999999;
+  color: white;
+  font-size: 16px;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.price{
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #A546A4;
+  font-size: 20px;  
+}
+.item{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 1px black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: .05em;
+}
+
+.row{
+  text-align: center;
+  padding-top: 60px;
+}
+#mail{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+ 
+}
+.signup{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Liu Jian Mao Cao', cursive; 
+  color: black;
+  opacity: 0.7;
+
+}
+
+.email{
+  font-size: 20px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  color: grey;
+  margin-bottom: 10px;   
+}
+
+.submit{
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+}
+.submit:hover{
+  opacity: 0.5;
+}
+
+@media (max-width: 700px){
+  .title{
+  font-size: 35px;
+  margin-top: 75px;
+} 
+
+.motto{
+  padding: 20px 0 20px; 0;
+  font-size: 10px;
+}
+ 
+  .navbar {
+  font-size: 15px;
+}
+.column .button{
+ transform: translate(-25%, -70%);
+ font-size: 5px;
+}
+  .column {
+  width: 50%;
+  padding: 5px;
+}
+
+  .price{
+  top: 80%;
+  left: 20%;
+  font-size: 15px;  
+}
+  .item{
+  top: 95%;
+  font-size: 10px;
+  padding-top: 12px;
+}
+ 
+  #mail{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+  .signup{
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  .email{
+  font-size: 15px;
+  width: 200px;
+  height: 20px;
+}
+
+.submit{
+  font-size: 15px;
+  background: none;
+}
+}
+
+@media (max-width: 1700px){
+
+  .column .button{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-size: 15px;
+  padding: 5px 0;
+}
+    .item{
+  padding-top: 15px;
+}
+}
+
+@media (max-width: 1000px){
+
+ .column {
+  width: 40%;
+  padding: 20px;
+}
+    .row{
+  padding-top: 20px;
+}
+  
+}

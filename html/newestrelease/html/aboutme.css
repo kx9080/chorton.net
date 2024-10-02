@@ -1,0 +1,72 @@
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
+  display: inline;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #001219;
+}
+nav div * {
+  margin: 15px;
+  color: whitesmoke;
+}
+header {
+  margin-bottom: 1rem;
+}
+a {
+  font-size: 1rem;
+  background-color: #1d263b;
+  padding: 1rem;
+  border-radius: 5.314259263%;
+  text-decoration: none;
+}
+img {
+  border-radius: 5%;
+}
+main div {
+  margin: 15px;
+  background-color: #dbe4ff;
+  border-radius: 5.314259263%;
+  padding: 1.5rem;
+  width: 60vw;
+  align-items: center;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1rem;
+  display: inline;
+}
+main div {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+main div * {
+  padding: 1.5rem;
+}
+main div img {
+  width: 50vw;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+}
+.center {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+body {
+  background-color: #f8f9fa;
+}
+.homebutton {
+  font-size: x-large;
+  background: none;
+}
